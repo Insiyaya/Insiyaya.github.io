@@ -1,21 +1,21 @@
 // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyAmtwzy1Vl86kL6O-mOxXGBmzvjXe-sils",
-    authDomain: "naman-jain-p1.firebaseapp.com",
-    projectId: "naman-jain-p1",
-    storageBucket: "naman-jain-p1.appspot.com",
-    messagingSenderId: "777455471511",
-    appId: "1:777455471511:web:51a6fd89c2bc576acf12d2",
-    measurementId: "G-ZFE0H57DW8"
-  };
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAeCIE8nKF1bfP6zLj2aY2nHFI8Rt7GAfA",
+  authDomain: "loginauthintern.firebaseapp.com",
+  projectId: "loginauthintern",
+  storageBucket: "loginauthintern.appspot.com",
+  messagingSenderId: "818246703556",
+  appId: "1:818246703556:web:5afb497808dc6161582c91",
+  measurementId: "G-4EFBJPSNTN"
+};
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

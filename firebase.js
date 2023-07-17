@@ -1,8 +1,8 @@
 
   var firebaseConfig = {
-    apiKey : "AIzaSyAmtwzy1Vl86kL6O-mOxXGBmzvjXe-sils",
-    authDomain: "naman-jain-p1.firebaseapp.com",
-    projectId: "naman-jain-p1",
+    apiKey: "AIzaSyAeCIE8nKF1bfP6zLj2aY2nHFI8Rt7GAfA",
+    authDomain: "loginauthintern.firebaseapp.com",
+    projectId: "loginauthintern",
     // ... (other credentials)
   };
   firebase.initializeApp(firebaseConfig);

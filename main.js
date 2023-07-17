@@ -3,9 +3,9 @@
     firebase.auth().signInWithPopup(provider)
       .then(function(result) {
         // Handle successful login
-        var user = result.user;
+        const user = result.user;
+        alert("Welcome " + user.displayName);
         console.log(user);
-        redirectToPage('https://nasu.live');
       })
       .catch(function(error) {
         // Handle error

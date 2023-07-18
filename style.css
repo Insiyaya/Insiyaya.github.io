@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     width: 100%;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.846);
 }
 .form {
     display: flex;
@@ -23,3 +23,17 @@
     font-size: 1.5rem !important;
 }
 
+@media only screen and (max-width:575px) {
+    #main {
+        flex-direction: column;
+    }
+    .form {
+        height: 65vh;
+    }
+    .my-btn {
+        width: 80%;
+    }
+    .phnum {
+        width: 80%;
+    }
+}

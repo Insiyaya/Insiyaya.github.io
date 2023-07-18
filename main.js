@@ -27,7 +27,7 @@
   }
 
   function signInWithOTP() {
-    var num = document.getElementById('ph-num').value;
+    var num = document.getElementById('phnum').value;
     var phoneNumber = "+91" + num;
     console.log(phoneNumber);
     var appVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container');
